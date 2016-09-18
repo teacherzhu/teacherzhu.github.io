@@ -78,8 +78,8 @@ td {
 }
 body {
   line-height: 1;
-  color: #000000;
-  background: #ffffff;
+  color: #000;
+  background: #fff;
 }
 ol,
 ul {
