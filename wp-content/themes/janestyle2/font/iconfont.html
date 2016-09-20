@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="http://www.knowsoo.cn" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>knowsoo</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="http://www.knowsoo.cn/wp-content/themes/janestyle2/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.knowsoo.cn/wp-content/themes/janestyle2/font/iconfont.css" />
+<script type="text/javascript" src="http://www.knowsoo.cn/wp-content/themes/janestyle2/js/jquery.js"></script>
+</head>
+<body>
+<div class="main_404">
+    <div class="logo">
+		<h1><a title="树叶教育传播" href="http://www.knowsoo.cn">树叶教育传播</a></h1>
+	</div>
+	<div class="time"><input type="text" readonly="true" value="5" id="time"/></div>
+	<div class="error_txt">
+	    <p>很抱歉！没有找到您要访问的页面，请检查您是否输入正确URL。<br>
+	    请尝试以下操作：<br>
+	    1. 如果您已经在地址栏中输入该网页的地址，请确认其拼写正确。<br>
+	    2. 单击<a href="javascript:history.back(1)"><img src="http://www.knowsoo.cn/wp-content/themes/janestyle2/img/return.gif" height="20" width="78"></a>尝试其他链接。</p>
+	</div>
+	 
+</div> 
+<script type="text/javascript">
+var t = 5;
+function countDown(){
+var time = document.getElementById("time");
+t--;
+time.value=t;
+if (t<=0) {
+location.href="http://www.knowsoo.cn";
+clearInterval(inter);
+};
+}
+var inter = setInterval("countDown()",1000);
+//window.onload=countDown;
+</script>   
+</body>
+</html>
