@@ -67,7 +67,7 @@ html{ overflow:-moz-scrollbars-vertical;}
 #header { background: #FFF; height: auto; /*box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);*/ overflow: hidden; }
 .banner { height: 95px; margin: 5px 0; overflow: hidden; }
 .logo { margin-top: 18px; width: 180px; height: 60px; }
-.logo a { background: url(./img/logo.png) no-repeat; display: block; width: 180px; height: 60px; }
+.logo a { background: url(http://www.knowsoo.cn/wp-content/themes/janestyle2/img/logo.png) no-repeat; display: block; width: 180px; height: 60px; }
 .logo h1, .logo a { font-size: 0px; text-indent: -9999em; }
 .nav { background: #333; padding: 0 15px; height: 42px; position: relative; }
 .nav ul { float: left; padding: 0px; }
@@ -163,7 +163,7 @@ width: 140px; }
 /* footer */
 #footer {background: #F8F8F8; width: 100%; margin-top: 120px; border-top: 2px solid #DDD; overflow: hidden; }
 #footer .wp { padding: 25px 0; text-align: center; }
-#footer .wp .span { font-size: 14px;  background: url(./img/logo.png) no-repeat; display: inline-block; width: 180px; height: 60px; }
+#footer .wp .span { font-size: 14px;  background: url(http://www.knowsoo.cn/wp-content/themes/janestyle2/img/logo.png) no-repeat; display: inline-block; width: 180px; height: 60px; }
 #footer .wp .span > a { font-size: 14px;  display: block; width: 180px; height: 60px; }
 #footer .wp p { font-size: 14px; line-height: 1.6em; text-align: center; }
 .backtop { text-align: center; background: #F2F2F2; display: none; width: 45px; height: 45px; line-height: 45px; position: fixed; bottom: 55px; right: 30px; z-index: 100; }
@@ -226,7 +226,7 @@ width: 140px; }
 
 /* 404 */
 .main_404{width:950px;margin:20px auto;}
-.error_txt{ margin-top:35px;background:url(./img/bg404.jpg) no-repeat top center; font-size:12px; line-height:22px; padding-top:100px; padding-left:360px; height:180px;}
+.error_txt{ margin-top:35px;background:url(http://www.knowsoo.cn/wp-content/themes/janestyle2/img/bg404.jpg) no-repeat top center; font-size:12px; line-height:22px; padding-top:100px; padding-left:360px; height:180px;}
 .error_txt img{ margin:0 3px -5px 3px; }
 .time { text-align: center; }
 .time input { color: #DB2A11; font: 28px Helvetica; }
